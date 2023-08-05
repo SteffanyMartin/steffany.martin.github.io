@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Resume</title>
+        <style>
+            body{
+                background-color:rgb(253, 253, 253);
+                margin: 50px;
+                font-family:Georgia, 'Times New Roman', Times, serif
+            }
+            .split-screen {
+                display:flex;
+            }
+            .left-side {
+                width:fit-content;
+                background-color:rgb(236, 235, 235);
+                padding: 30px;
+                flex:1;
+            }
+            .name {
+                margin-top: 30px;
+                margin-bottom: 30px;
+            }
+            #selfie {
+                width: 175px;
+                border-radius: 50%;
+                background-color: rgb(253, 253, 253);
+                padding: 15px;
+                display: block; 
+                margin: 0 auto; 
+            }
+
+            .address{
+                text-align: left;
+                font-style: italic;
+                margin-top: 30px;
+                margin-bottom: 40px;
+            }
+
+            a{
+                text-decoration: none;
+                font-weight: bold;
+                color:rgb(18, 192, 240);
+            }
+            a:hover {
+                color: rgb(36, 104, 250);
+            }
+            .table-left{ 
+                color: #000000;
+                font-weight: bold;
+                margin:40px;
+                border-spacing: 20px;
+            .icon{
+                text-align: left;
+            }
+            .link{
+                text-align: left;
+            }
+            }
+            #profile {
+                margin-bottom: 20px;
+            }
+            #blurb {
+                margin-top: 20px;
+                margin-bottom: 40px;
+                line-height: 1.5;
+                text-indent: 20px;
+            }
+            #skills {
+                padding-left: 15px;
+                line-height: 2;
+            }
+            #hobbies {
+                font-size: larger;
+            }
+            .right-side{
+                background-color: rgb(253, 253, 253);
+                width: fit-content;
+                padding:40px;
+                flex: 3.5;
+            }
+
+            h1 {
+                font-size: 15.6pt;
+            }
+            h2 {
+                font-size: 15pt;
+                line-height:.25;
+            }
+            h3 {
+                font-size: 14pt;
+                font-style: italic;
+                font-weight: lighter;
+                line-height: .25;
+            }
+            h4 {
+                font-size: 22pt;
+                font-style: italic;
+                font-weight: lighter;
+            }
+            .table-right{
+                max-width: 200;
+                width: 100%;
+            }
+            th {
+                font-size: 17pt;
+                padding-top: 20px;
+                text-align: left;
+            }
+            .date {
+                text-align: right;
+                font-size: 13pt;
+            }
+            li{
+                padding-bottom: 20px;
+            }
+        </style>
+    </head>
+
+    <body>
+    <div class="split-screen">
+        <div class="left-side">
+    <img src="selfie.jpeg" alt="selfie" id="selfie">
+
+    <div class="name">
+    <h1>Steffany Martin</h1>
+    <p><strong>Designer</strong></p></div>
+    <p><div class="address">P.O.Box 12445</p>
+    <p>New Bern, NC 28561</p></div>
+    <hr>
+    
+    <table class="table-left">
+        <td class="icon"><a href="mailto:steffany.martin@gmail.com"><img src="email.png" width="20"></a></td><td class="link"><a href="mailto:steffany.martin@gmail.com">E-mail</a></td></tr>
+        <tr>
+        <td class="icon"><a href="https://www.linkedin.com/in/steffanymartin/ "target="_blank"><img src="linkedin.png"width="20"></a></td><td class="link"><a href="https://www.linkedin.com/in/steffany-martin-415144217/" target="_blank">LinkedIn</a></td></tr>
+        <tr>
+        <td class="icon"><a href="https://github.com/SteffanyMartin" target="_blank"><img src="github-mark.png" width="20"></td><td class="link"><a href="https://github.com/SteffanyMartin" target="_blank">Github</a></td></tr>
+    </table>
+
+    <H2 id="profile">Profile</H2>
+    <hr>
+    <p id="blurb"> An artistic, versatile, and dedicated professional designer transitioning from a successful career as a dog groomer to 
+        pursue a new and exciting path as a freelance software developer capable of engineering custom business software and mobile applications for small 
+        businesses (with high hopes of significantly fewer biting incidences). 
+    </p>
+
+    <h2>Skills</h2>
+    <hr>
+    <p><ul id="skills">
+        <li>Project Management</li>
+        <li>Problem Solving</li>
+        <li>Creativity</li>
+        <li>Communication</li>
+    </ul></p>
+    <p id="hobbies"><a href="hobbies.html" target="_blank">My Hobbies</a></p>
+    <hr>    
+    <p>(opens new window)</p>
+    </div>
+
+    <div class="right-side">
+    <h4>Work Experience</h4>
+    <hr>
+    
+    <table class="table-right">
+    <tr>
+        <th colspan="2">Manager</th>
+        </tr>
+    <tr><td><h3>PCK9A</h3></td>
+        <td class="date">Aug 2020 - Oct 2021</td>
+    </tr>
+    <tr>
+        <td colspan="2"><ul>
+        <li>Managed the grooming salon and hiring/training new staff</li>
+        <li>Responsible for inventory, scheduling, customer service, reception </li>
+    </ul></td>
+</tr>
+    <tr>
+        <th colspan="2">Lead Groomer/Trainer</th>
+    </tr>
+    <tr> 
+        <td><h3>Petsense</h3></td>
+        <td class="date">Jan 2017 - Aug 2020</td>
+    </tr>
+    <tr>
+        <td colspan="2"><ul>
+        <li>Managed grooming salon and trained new groomers on breed standards and safety</li>
+        <li>Responsibile for ordering supplies, booking appointments, general cleaning</li></td>
+    </ul></tr>
+
+    <tr>
+        <th colspan="2">Groomer</th>
+        </tr>
+    <tr>
+        <td><h3>Jill's Pet Resort</h3></td>
+        <td class="date">Apr 2016 - Jan 2017 </td>
+        </tr>
+    <tr>
+        <td colspan="2"><ul>
+        <li>Responsible for marketing/building clientele, maintaining safety standards, training new bathers </li></td>
+    </ul></tr>
+    </table>
+
+    <h4>Education History</h4>
+    <hr>
+    <table class="table-right">
+    <tr>
+        <th colspan="2">Associate Degree (In Progress)</th>
+        </tr>
+    <tr>
+        <td><h3>Pitt Community College</h3></td>
+        <td class="date">2025</td>
+        </tr>
+    <tr>
+        <td colspan="2"><ul>
+        <li>Major: Computer Programming and Development</li>
+        <li>Major: Accounting </li></td>
+    </ul></tr>
+<tr>
+        <th colspan="2">Bachelor of Arts</th>
+        </tr>
+    <tr>
+        <td><h3>East Carolina University</h3></td>
+        <td class="date">2011</td>
+        </tr>
+    <tr><td colspan="2"><ul>
+        <li>Major: Psychology</li>
+        <li>Minor: Sociology</li>
+        <Li>Magna Cum Laude</Li>
+    </ul></td></tr>
+    </table>
+    </div>
+</div>
+    </body>
+</html>
